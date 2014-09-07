@@ -1,0 +1,13 @@
+<?php
+include "includes/dbConnect.php";
+
+function putInList($info){
+
+	$first = mysql_real_escape_string($info['first']);
+	$second = mysql_real_escape_string($info['second']);
+	$why = mysql_real_escape_string($info['explanation']);
+	
+	$query = "INSERT into `bocce_tournament` (`first`, `second`, `why`) VALUES ('$first', '$second', '$why')";
+	$result = mysql_query($query);
+}
+?>
