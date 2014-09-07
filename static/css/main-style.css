@@ -1,0 +1,42 @@
+/* @group CSS reset */
+    html, body, div, span, applet, object, iframe, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+     caption {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	outline: 0;
+    	font-weight: inherit;
+    	font-style: inherit;
+    	font-size: 11pt;
+    	font-family: inherit;
+    	vertical-align: baseline;
+    	color: white;
+    	font-family: 'Meddon', arial, serif;
+    	/*background:#f0d207;*/
+    	background:#775C42;
+    }
+h2{
+	font-size:20pt;
+	margin-bottom:25px;
+}
+#content-container{
+	min-height:500px;
+	width:800px;
+/*	border:2px solid yellow;*/
+	text-align:center;
+	margin:0 auto;
+	padding-top:10px;
+	font-family: 'Meddon', arial, serif;
+}
+#main-image{
+	padding:0 0 0 0;
+	width:680px;
+}
+#main-image p{
+	margin-bottom:15px;
+}
